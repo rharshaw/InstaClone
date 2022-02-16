@@ -67,7 +67,9 @@ struct RegistrationView: View {
               .customTextFieldModifier()
           }
           
-          Button(action: {}) {
+          Button(action: {
+            viewModel.register(withEmail: email, password: password, image: selectedImage, fullname: fullname, username: username)
+          }) {
             Text("Sign Up")
               .font(.headline)
               .foregroundColor(.white)

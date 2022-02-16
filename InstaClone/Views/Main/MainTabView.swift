@@ -32,11 +32,19 @@ struct MainTabView: View {
               Image(systemName: "person")
             }
         }
-        .navigationTitle("Home")
+        .navigationBarTitle("Home")
         .navigationBarTitleDisplayMode(.inline)
-        .accentColor(.red)
+        .navigationBarItems(leading: logoutButton)
+        .accentColor(.purple)
       }
     }
+  
+  var logoutButton: some View {
+    Button(action: { AuthViewModel.shared.signout() } ) {
+      Text("Logout")
+        .foregroundColor(.black)
+    }
+  }
 }
 
 struct MainTabView_Previews: PreviewProvider {
