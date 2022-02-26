@@ -10,10 +10,11 @@ import SwiftUI
 struct MainTabView: View {
     
     let user: User
+    @Binding var selectedIndex: Int
     
     var body: some View {
       NavigationView {
-        TabView {
+          TabView(selection: $selectedIndex) {
           FeedView()
             .tabItem {
               Image(systemName: "house")

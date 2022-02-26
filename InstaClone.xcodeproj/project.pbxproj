@@ -12,6 +12,7 @@
 		960973BE27B3473400AFB859 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 960973BD27B3473400AFB859 /* Kingfisher */; };
 		960973C027B3478900AFB859 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960973BF27B3478900AFB859 /* AuthViewModel.swift */; };
 		960973C227B3481000AFB859 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 960973C127B3481000AFB859 /* GoogleService-Info.plist */; };
+		9636CAA527C985FA00DB0887 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9636CAA427C985FA00DB0887 /* UploadPostViewModel.swift */; };
 		96561E9527AC90D500D2277F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96561E9427AC90D500D2277F /* UserCell.swift */; };
 		96561E9727AC90DD00D2277F /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96561E9627AC90DD00D2277F /* UserListView.swift */; };
 		96561E9927AC964900D2277F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96561E9827AC964900D2277F /* Extensions.swift */; };
@@ -55,6 +56,7 @@
 		96020B1727AB527200242F52 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		960973BF27B3478900AFB859 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		960973C127B3481000AFB859 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9636CAA427C985FA00DB0887 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		96561E9427AC90D500D2277F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		96561E9627AC90DD00D2277F /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		96561E9827AC964900D2277F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				965E321327A2508D008EF5AD /* Notifications */,
 				965E321227A25088008EF5AD /* Feed */,
 				96A7D40227C0885000017FFE /* SearchViewModel.swift */,
+				9636CAA427C985FA00DB0887 /* UploadPostViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				965E321727A2512A008EF5AD /* MainTabView.swift in Sources */,
 				96D99FDF27B05220004324F0 /* ResetPasswordView.swift in Sources */,
 				965E322127A251BE008EF5AD /* UploadPostView.swift in Sources */,
+				9636CAA527C985FA00DB0887 /* UploadPostViewModel.swift in Sources */,
 				96D99FD927AF313D004324F0 /* ImagePicker.swift in Sources */,
 				965E321F27A251B3008EF5AD /* ProfileView.swift in Sources */,
 				96D57C6D27C5D7A00028AB77 /* UserService.swift in Sources */,
